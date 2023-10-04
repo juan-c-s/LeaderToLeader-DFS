@@ -1,0 +1,11 @@
+
+0) Encender servidor apache y sql server. Tener Generar Base de Datos que se llame "ganaderapp" 
+    Si vas a utilizar otro nombre, cambiar la base de datos en el archivo .env 
+    donde dice DB_DATABASE
+1) Correr las migraciones
+    php artisan migrate
+2) Correr el seed para tener datos preestablecidos
+    php artisan db:seed 
+
+3) Acceder al puerto 8000, y estarás en la página principal.
+4) En el Nav Bar estarán los accesos a las rutas de las actividades 2 y 4
